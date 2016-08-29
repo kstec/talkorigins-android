@@ -11,25 +11,4 @@
         android:layout_height="0dip"
         android:layout_weight="1" />
 
-   <!-- <RelativeLayout
-        android:layout_width="fill_parent"
-        android:layout_height="100dp"
-        android:orientation="vertical" >
-
-
-             <TextView android:id="@+id/claim_title" android:layout_width="fill_parent"
-			android:layout_height="wrap_content" android:text="@string/claim_title" />
-
-
-        <CheckBox
-            android:id="@+id/favToggle1"
-            android:layout_width="wrap_content"
-            android:layout_height="80dp"
-            android:layout_alignParentLeft="true"
-            android:onClick="setFavStatus"
-            android:text="Favourite"
-            android:textOff="Not Favourite"
-            android:textOn="Favourited!" />
-    </RelativeLayout>-->
-
 </LinearLayout>
