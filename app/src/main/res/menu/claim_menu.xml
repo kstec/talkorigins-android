@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/claim_menu">
+
+    <item
+        android:id="@+id/favorite"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:title="@string/like"/>
+
+    <item
+        android:id="@+id/share"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:actionProviderClass="android.widget.ShareActionProvider"
+        android:title="@string/share_menu_text"/>
+
+    <item
+        android:id="@+id/url"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:title="@string/url_menu_text"/>
+
+    <item
+        android:id="@+id/open"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:title="@string/open_menu_text"/>
+</menu>

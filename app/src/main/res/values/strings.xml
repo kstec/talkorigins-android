@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">TalkOrigins</string>
+    <string name="search_btn_text">Search</string>
+    <string name="search_label">Search</string>
+    <string name="search_hint">Search</string>
+    <string name="fav_btn_text">Favorites</string>
+    <string name="fav_menu_text">Add as Favorite</string>
+    <string name="url_menu_text">Copy URL to clipboard</string>
+    <string name="share_menu_text">Share</string>
+    <string name="open_menu_text">Open in Browser</string>
+
+    <!-- Favorites -->
+    <string name="like">Like</string>
+    <string name="liked">Liked</string>
+    <string name="unlike">Unlike</string>
+    <string name="unliked">Unliked</string>
+    <string name="add_favorite_error">Could not be added to favorites</string>
+    <string name="remove_favorite_error">Could not be added to favorites</string>
+    <string name="claim_children">Claim has children</string>
+    <string name="load_error">There was a problem loading the claim. Check your network connection.</string>
+    <string name="claim_title">Claim Title</string>
+
+</resources>
