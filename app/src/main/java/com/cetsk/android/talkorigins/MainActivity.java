@@ -24,12 +24,6 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.content_scrolling);
 
         Claim claim = (Claim) getIntent().getSerializableExtra("claim");
-        dialog = ProgressDialog.show(this, "Loading", "Building database. Please wait....", true);
-        try {
-            new HTMLParse(getApplicationContext());
-        } catch (Exception e) {
-        }
-        dialog.dismiss();
 
         final ListView lv = (ListView) findViewById(R.id.listView);
         ClaimAdapter ca = new ClaimAdapter(getBaseContext(), R.layout.list_item, ClaimHelper.getClaims(this, 0, true));
